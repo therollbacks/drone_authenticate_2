@@ -29,7 +29,7 @@ class BadDataGenerator:
             dfupdate.Alt = bad_alt
             df.update(dfupdate)
             newfile = filename.split("\\")
-            df.to_csv("./compared_auto/" + newfile[1])
+            df.to_csv("./bad_auto/" + newfile[1])
 
 generator = BadDataGenerator("./formatted_auto")
 generator.open_files()

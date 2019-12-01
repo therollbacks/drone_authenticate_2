@@ -6,15 +6,15 @@ from sklearn import svm
 class SVM:
 
     def __init__(self, filename, train_set_len):
-        # cc = pd.read_csv("./compared_auto/cleandatagp3_047compared.csv")
+        # cc = pd.read_csv("./bad_auto/cleandatagp3_047compared.csv")
         self.filename = filename
         self.train_set_len = train_set_len
         self.model()
 
     def model(self):
 
-        cc = pd.read_csv("./compared_auto/" + self.filename)
-        #cc = pd.read_csv("./compared_auto/cleandatagp2_007compared.csv")
+        cc = pd.read_csv("./bad_auto/" + self.filename)
+        #cc = pd.read_csv("./bad_auto/cleandatagp2_007compared.csv")
 
         # .loc primarily label based. used to access a column data or row
         nor_obs = cc.loc[cc.Category == 0]  # Data frame with normal observation

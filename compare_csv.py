@@ -126,7 +126,7 @@ class TestCsv:
         # print("false count: " + false_counter)
         # print("just name is " +  justname)
 
-        compared_file_name = './compared_auto/' + justname[17:] + 'compared.csv'
+        compared_file_name = './bad_auto/' + justname[17:] + 'compared.csv'
         # print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
             # print('making compare file')

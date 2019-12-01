@@ -10,7 +10,7 @@ class Main:
         print("starting ML models")
         self.pathName = os.getcwd()
         self.numFiles = []
-        self.fileNames = os.listdir('compared_auto')
+        self.fileNames = os.listdir('bad_auto')
         self.svm_model()
         # self.k_nearest_model()
 
@@ -21,7 +21,7 @@ class Main:
 
         for filename in self.fileNames:
             sum = 0
-            with open('compared_auto/' + filename) as f:
+            with open('bad_auto/' + filename) as f:
                 for row in f:
                     sum = sum + 1
             print('opening compared auto ', filename)
@@ -43,11 +43,11 @@ class Main:
     #
     #     for filename in self.fileNames:
     #         sum = 0
-    #         with open('compared_auto/' + filename) as f:
+    #         with open('bad_auto/' + filename) as f:
     #             for row in f:
     #                 sum = sum + 1
     #         print("k-nearest for file ", filename)
-    #         obj_k.loadDataset('./compared_auto/' + filename, split, trainingSet, testSet)
+    #         obj_k.loadDataset('./bad_auto/' + filename, split, trainingSet, testSet)
     #         # print(('Train set: ' + repr(len(trainingSet))))
     #         # print(('Test set: ' + repr(len(testSet))))
     #         # generate predictions
