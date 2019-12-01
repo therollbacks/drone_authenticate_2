@@ -11,8 +11,8 @@ svr = SVR(kernel="linear", gamma="auto")
 
 # go through both files and find dissimilar longitude and latitude
 
-headers = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng']
-first_line = ['Roll', 'Pitch', 'Yaw', 'Alt', 'Lat', 'Lng', 'Category']
+headers = ['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Pitch(deg)']
+first_line = ['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Pitch(deg)', 'Category']
 full_data = []
 sample_size = 100000
 filename_list = []
@@ -45,6 +45,7 @@ class TestCsv:
 
         self.false_lat_list = []
         self.false_lng_list = []
+        
         self.lat_min = 0
         self.lng_min = 0
         self.lat_max = 0
@@ -56,12 +57,12 @@ class TestCsv:
 
             next(f)
             for line in csv.reader(f):
-                true_lat = format(float(line[4]), '.5f')
-                true_lng = format(float(line[5]), '.5f')
-                true_roll = format(float(line[0]), '.1f')
-                true_pitch = format(float(line[1]), '.1f')
-                true_alt = format(float(line[3]), '.1f')
-                true_yaw = round(float(line[2]))
+                true_lat = format(float(line[2]), '.5f')
+                true_lng = format(float(line[3]), '.5f')
+                true_roll = format(float(line[5]), '.1f')
+                true_pitch = format(float(line[6]), '.1f')
+                true_alt = format(float(line[1]), '.1f')
+                true_yaw = round(float(line[4]))
 
                 if true_lat not in self.true_lat_list:
                     self.true_lat_list.append(true_lat)
@@ -74,6 +75,8 @@ class TestCsv:
                     self.true_roll_list.append(true_roll)
                 if true_pitch not in self.true_pitch_list:
                     self.true_pitch_list.append(true_pitch)
+                if true_alt not in self.true_alt_list:
+                    self.true_alt_list.append(true_alt)
 
 
         # error_range = 0.0000000
@@ -96,11 +99,12 @@ class TestCsv:
 
             for line in csv.reader(f):
                 current_line = line
-                bad_lat = format(float(line[4]), '.5f')
-                bad_lng = format(float(line[5]), '.5f')
-                bad_yaw = round(float(line[2]))
-                bad_roll = format(float(line[0]), '.1f')
-                bad_pitch = format(float(line[1]), '.1f')
+                bad_alt = format((float(line[1]), '.1f'))
+                bad_lat = format(float(line[2]), '.5f')
+                bad_lng = format(float(line[3]), '.5f')
+                bad_yaw = round(float(line[4]))
+                bad_roll = format(float(line[5]), '.1f')
+                bad_pitch = format(float(line[6]), '.1f')
 
                 if bad_lat not in self.true_lat_list:
                     false_counter += 1
@@ -108,6 +112,11 @@ class TestCsv:
                     compared_file_list.append(current_line)
 
                 elif bad_lng not in self.true_lng_list:
+                    false_counter += 1
+                    current_line.append(1)
+                    compared_file_list.append(current_line)
+
+                elif bad_alt not in self.true_alt_list:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)
