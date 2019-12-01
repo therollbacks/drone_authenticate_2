@@ -64,12 +64,16 @@ class Format:
         data['Pitch(deg)'] = np.rad2deg(data['Pitch'].astype(float))
         data['Index'] = data.index
 
-        data = data[['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)']]
+        data = data[['Index', 'Alt', 'Lat', 'Lat', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)']]
         data.head()
 
-        data.to_csv(('./formatted_auto/' + "clean" + new_file_name), index=False)
+        splitname = new_file_name.split(".")
+        newname = splitname[0] + "gp"
+
+        data.to_csv(('./formatted_auto/' + "clean" + newname + ".csv"), index=False)
         os.remove('./formatted_auto/' + new_file_name)
         os.remove('./formatted_auto/' + "new" + new_file_name)
+
 
         # Code to Reorder Columns
         #
