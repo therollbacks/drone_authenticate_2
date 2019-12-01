@@ -64,7 +64,7 @@ class Format:
         data['Pitch(deg)'] = np.rad2deg(data['Pitch'].astype(float))
         data['Index'] = data.index
 
-        data = data[['Index', 'Alt', 'Lat', 'Lat', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)']]
+        data = data[['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)']]
         data.head()
 
         splitname = new_file_name.split(".")
