@@ -1,109 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c18cced-c7ef-4573-9696-08cec8bad7a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000001.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000002.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000003.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000004.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000005.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000006.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000007.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000008.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000009.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000010.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000011.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000012.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000020.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000021.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000022.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000023.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000024.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000025.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000026.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000027.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000028.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000029.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000030.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000031.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000032.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000033.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000034.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000035.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000036.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000037.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000038.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000039.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000040.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000041.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000042.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000043.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000044.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000045.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000046.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000047.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000048.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000049.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000050.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000051.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000052.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000053.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000054.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000055.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000056.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000057.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000058.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000059.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000060.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000061.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000062.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000063.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000064.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000065.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000066.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000067.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000068.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000069.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000070.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000071.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000072.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000073.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000074.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000075.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000076.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000077.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000078.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000079.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000080.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000081.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000082.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000083.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000084.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000085.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000086.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000087.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000088.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000089.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000090.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000091.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000092.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000093.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000094.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000095.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000096.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000097.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000098.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000099.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_bad_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_bad_data.py" afterDir="false" />
-    </list>
+    <list default="true" id="9c18cced-c7ef-4573-9696-08cec8bad7a3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,12 +19,24 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/generate_bad_data.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+                <state relative-caret-position="228">
+                  <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000001dp.csv">
+              <provider selected="true" editor-type-id="csv-text-editor">
+                <state relative-caret-position="216">
+                  <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                </state>
+              </provider>
+              <provider editor-type-id="csv-table-editor">
+                <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
               </provider>
             </entry>
           </file>
@@ -157,9 +67,7 @@
           </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/formatted_auto/cleandata00000001.csv">
-              <provider selected="true" editor-type-id="csv-text-editor">
-                <state relative-caret-position="-1966" />
-              </provider>
+              <provider selected="true" editor-type-id="csv-text-editor" />
               <provider editor-type-id="csv-table-editor">
                 <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
               </provider>
@@ -270,7 +178,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14795244" />
@@ -397,9 +304,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/formatted_auto/cleandata00000001.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1966" />
-      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
@@ -456,9 +361,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generate_bad_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="228">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000001dp.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
