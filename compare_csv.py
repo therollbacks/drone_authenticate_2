@@ -45,7 +45,7 @@ class TestCsv:
 
         self.false_lat_list = []
         self.false_lng_list = []
-        
+
         self.lat_min = 0
         self.lng_min = 0
         self.lat_max = 0
@@ -187,7 +187,7 @@ def main():
 
         if goodfilename == badfilename:
             print("good_data_file_name is ", goodfilename, "bad_data_file_name ", badfilename[-3:])
-            obj.open_file_w_headers(goodFiles[i], badFiles[i],  badfilename[-3:])
+            obj.open_file_w_headers(goodFiles[i], badFiles[i], badfilename[-3:])
         # count = count + 1
 
     # with open("all_data.csv", 'w', newline='') as openFile:
