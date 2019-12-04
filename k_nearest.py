@@ -2,30 +2,16 @@ import csv
 import random
 import math
 import operator
+import os, glob
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 
 
 class kNearest:
 
-    def __init__(self):
+    def __init__(self, filename):
 
-        trainingSet = []
-        testSet = []
-        self.split = 0.67
-        self.loadDataset('./compared/001compared.csv', self.split, trainingSet, testSet)
-        print(('Train set: ' + repr(len(trainingSet))))
-        print(('Test set: ' + repr(len(testSet))))
-        # generate predictions
-        predictions = []
-        k = 3
-        for x in range(len(testSet)):
-            neighbors = self.getNeighbors(trainingSet, testSet[x], k)
-            result = self.getResponse(neighbors)
-            predictions.append(result)
-            print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
-        accuracy = self.getAccuracy(testSet, predictions)
-        print('Accuracy: ' + repr(accuracy) + '%')
+        self.filename = filename
 
 
     def loadDataset(self, filename, split, trainingSet=[], testSet=[]):
@@ -44,7 +30,7 @@ class kNearest:
             for x in range(len(dataset) - 1):
                 for y in range(4):
                     dataset[x][y] = float(dataset[x][y])
-                if random.random() < self.split:
+                if random.random() < split:
                     trainingSet.append(dataset[x])
                 else:
                     testSet.append(dataset[x])
@@ -129,7 +115,45 @@ class kNearest:
         # print('sensitivity: ', sensitivity)
         specificity = TN / (TN + FP)
         print('specifitiy: ', specificity)
-        return (correct / float(len(testSet))) * 100.0
+        percentage = (correct / float(len(testSet))) * 100.0
+        return accuracy, specificity
 
 
-if __name__ == '__main__': kNearest()
+    @staticmethod
+    def find_ave(list):
+        tmp = 0
+        for each in list:
+            tmp = tmp + each
+        return tmp/len(list)
+
+os.chdir("./compared")
+acc_list = []
+sensitivity_list = []
+specificity_list = []
+
+
+for file in glob.glob("*.csv"):
+    k_nearest = kNearest(file)
+
+    trainingSet = []
+    testSet = []
+    k_nearest.loadDataset(file, 0.67, trainingSet, testSet)
+
+    # generate predictions
+    predictions = []
+    k = 3
+    for x in range(len(testSet)):
+        neighbors = k_nearest.getNeighbors(trainingSet, testSet[x], k)
+        result = k_nearest.getResponse(neighbors)
+        predictions.append(result)
+        # print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
+    accuracy, specificity = k_nearest.getAccuracy(testSet, predictions)
+    print('Accuracy: ' + repr(accuracy)  + '%')
+
+    acc_list.append(accuracy*100)
+    specificity_list.append(specificity*100)
+
+print(acc_list)
+print("-----------------------------------------------------------------")
+print('average accuracy = ', kNearest.find_ave(acc_list))
+print('average specificity = ', kNearest.find_ave(specificity_list))
