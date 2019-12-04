@@ -1,4 +1,4 @@
-import os
+import glob, os
 from matplotlib import style
 import csv
 from sklearn.svm import SVR
@@ -11,8 +11,8 @@ svr = SVR(kernel="linear", gamma="auto")
 
 # go through both files and find dissimilar longitude and latitude
 
-headers = ['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Pitch(deg)']
-first_line = ['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Pitch(deg)', 'Category']
+headers = ['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)']
+first_line = ['Index', 'Alt', 'Lat', 'Lng', 'Yaw(deg)', 'Roll(deg)', 'Pitch(deg)', 'Category']
 full_data = []
 sample_size = 100000
 filename_list = []
@@ -51,7 +51,7 @@ class TestCsv:
         self.lat_max = 0
         self.lng_max = 0
 
-        with open(goodfile) as f:
+        with open("../formatted_auto/" + goodfile) as f:
             print("goodfile is ", goodfile)
             print("badfile is ", badfile)
 
@@ -61,7 +61,7 @@ class TestCsv:
                 true_lng = format(float(line[3]), '.5f')
                 true_roll = format(float(line[5]), '.1f')
                 true_pitch = format(float(line[6]), '.1f')
-                true_alt = format(float(line[1]), '.1f')
+                true_alt = format(float(line[1]))
                 true_yaw = round(float(line[4]))
 
                 if true_lat not in self.true_lat_list:
@@ -78,55 +78,47 @@ class TestCsv:
                 if true_alt not in self.true_alt_list:
                     self.true_alt_list.append(true_alt)
 
-
-        # error_range = 0.0000000
-        # self.lat_min = min(self.true_lat_list) - error_range
-        # self.lat_max = max(self.true_lat_list) + error_range
-        # self.lng_min = min(self.true_lng_list) - error_range
-        # self.lng_max = max(self.true_lng_list) + error_range
-
-        # print(self.lat_min, self.lat_max)
-        # print(self.lng_min, self.lng_max)
-        print("true lat list is ", self.true_lat_list)
+        print("true lat list is ", self.true_alt_list)
         self.open_file_w_headers_second(badfile, justname)
 
     # detour
     def open_file_w_headers_second(self, badfile, justname):
         false_counter = 0
         compared_file_list = []
-        with open(badfile) as f:
+        with open("../bad_auto/" + badfile) as f:
             next(f)
 
             for line in csv.reader(f):
                 current_line = line
-                bad_alt = format((float(line[1]), '.1f'))
+                print("alt is ", float(line[1]))
+                bad_alt = format((float(line[1])))
                 bad_lat = format(float(line[2]), '.5f')
                 bad_lng = format(float(line[3]), '.5f')
                 bad_yaw = round(float(line[4]))
                 bad_roll = format(float(line[5]), '.1f')
                 bad_pitch = format(float(line[6]), '.1f')
 
-                if bad_lat not in self.true_lat_list:
+                # if bad_lat not in self.true_lat_list:
+                #     false_counter += 1
+                #     current_line.append(1)
+                #     compared_file_list.append(current_line)
+                #
+                # elif bad_lng not in self.true_lng_list:
+                #     false_counter += 1
+                #     current_line.append(1)
+                #     compared_file_list.append(current_line)
+
+                if bad_alt not in self.true_alt_list:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)
 
-                elif bad_lng not in self.true_lng_list:
-                    false_counter += 1
-                    current_line.append(1)
-                    compared_file_list.append(current_line)
-
-                elif bad_alt not in self.true_alt_list:
-                    false_counter += 1
-                    current_line.append(1)
-                    compared_file_list.append(current_line)
-
-                elif bad_roll not in self.true_roll_list:
-                    if bad_pitch not in self.true_pitch_list:
-                        if bad_yaw not in self.true_yaw_list:
-                                false_counter += 1
-                                current_line.append(1)
-                                compared_file_list.append(current_line)
+                # elif bad_roll not in self.true_roll_list:
+                #     if bad_pitch not in self.true_pitch_list:
+                #         if bad_yaw not in self.true_yaw_list:
+                #                 false_counter += 1
+                #                 current_line.append(1)
+                #                 compared_file_list.append(current_line)
                 else:
                     current_line.append(0)
                     compared_file_list.append(current_line)
@@ -134,8 +126,9 @@ class TestCsv:
 
         # print("false count: " + false_counter)
         # print("just name is " +  justname)
+        os.chdir("../compared/")
 
-        compared_file_name = './bad_auto/' + justname[17:] + 'compared.csv'
+        compared_file_name = justname + 'compared.csv'
         # print(compared_file_name)
         with open(compared_file_name, 'w', newline='') as openFile:
             # print('making compare file')
@@ -166,37 +159,36 @@ def main():
 
     goodFiles = []
     badFiles = []
-    fileNames = os.listdir("./formatted_auto")
-    # print(fileNames)
 
-    for fileName in fileNames:
-        if ("dp") in fileName:
-            # print('filename is '+ fileName)
-            badFiles.append("./formatted_auto/" + fileName)
+    os.chdir("./formatted_auto")
+    for file in glob.glob("*.csv"):
+        goodFiles.append(file)
 
-        elif ("gp") in fileName:
-            # print('filename is '+ fileName)
-            goodFiles.append("./formatted_auto/" + fileName)
+    os.chdir("../bad_auto")
+    for file in glob.glob("*.csv"):
+        badFiles.append(file)
 
+    print(goodFiles)
+    print(badFiles)
 
-        #
-        # if fileName.endswith("TP.csv"):
-        #     goodFiles.append("./formatted/" + fileName)
-        # if fileName.endswith("DT.csv"):
-        #     badFiles.append("./formatted/" + fileName)
-
-    goodFiles.sort()
-    badFiles.sort()
-
+    # goodFiles.sort()
+    # badFiles.sort()
+    #
     count = 0
     for i in range(0, len(goodFiles)):
         # print(len(goodFiles))
         good_data_file_name = goodFiles[i]
         bad_data_file_name = badFiles[i]
-        if good_data_file_name[28:] == bad_data_file_name[28:]:
-            print("good_data_file_name is ", good_data_file_name[28:], "bad_data_file_name ", bad_data_file_name[28:])
-            obj.open_file_w_headers(goodFiles[i], badFiles[i], good_data_file_name[:-4])
-            count = count + 1
+        name = good_data_file_name.split('.')
+        badname = bad_data_file_name.split('.')
+
+        goodfilename = name[0].replace("gp", "")
+        badfilename = badname[0].replace("dp", "")
+
+        if goodfilename == badfilename:
+            print("good_data_file_name is ", goodfilename, "bad_data_file_name ", badfilename[-3:])
+            obj.open_file_w_headers(goodFiles[i], badFiles[i],  badfilename[-3:])
+        # count = count + 1
 
     # with open("all_data.csv", 'w', newline='') as openFile:
     #     print('making final file')

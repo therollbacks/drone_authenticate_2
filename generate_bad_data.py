@@ -24,12 +24,12 @@ class BadDataGenerator:
             emp_list.append(df)
             current_mean = df["Alt"].mean()
             print("mean of Alt for ", filename, " is ", df["Alt"].mean())
-            dfupdate= df.sample(60)
+            dfupdate= df.sample(20)
             bad_alt = current_mean * 0.90
             dfupdate.Alt = bad_alt
             df.update(dfupdate)
             newfile = filename.split("\\")
-            csvname = newfile[1].split(".")
+            csvname = newfile[1].split("gp.")
             csvname_2 = csvname[0]+"dp"
             df.to_csv("./bad_auto/" + csvname_2 + ".csv")
 
