@@ -1,20 +1,19 @@
 import pandas as pd
 import numpy as np
 from sklearn import svm
-
+import os, glob
 
 class SVM:
 
-    def __init__(self, filename, train_set_len):
+    def __init__(self, filename):
         # cc = pd.read_csv("./bad_auto/cleandatagp3_047compared.csv")
         self.filename = filename
-        self.train_set_len = train_set_len
+        self.train_set_len = 90
         self.model()
 
     def model(self):
 
-        cc = pd.read_csv("./bad_auto/" + self.filename)
-        #cc = pd.read_csv("./bad_auto/cleandatagp2_007compared.csv")
+        cc = pd.read_csv(self.filename)
 
         # .loc primarily label based. used to access a column data or row
         nor_obs = cc.loc[cc.Category == 0]  # Data frame with normal observation
@@ -115,5 +114,28 @@ class SVM:
 
         return (TP, FN, FP, TN, accuracy, sensitivity, specificity)
 
+    @staticmethod
+    def find_ave(list):
+        tmp = 0
+        for each in list:
+            tmp = tmp + each
+        return tmp/len(list)
 
-if __name__ == '__main__': SVM('placeholder', 1100)
+
+
+os.chdir("./compared")
+acc_list = []
+sensitivity_list = []
+specificity_list = []
+
+for file in glob.glob("*.csv"):
+    svm_model = SVM(file)
+    TP, FN, FP, TN, accuracy, sensitivity, specificity= svm_model.model()
+    acc_list.append(accuracy)
+    sensitivity_list.append(sensitivity)
+    specificity_list.append(specificity)
+
+print("-----------------------------------------------------------------")
+print('average accuracy = ', SVM.find_ave(acc_list))
+print('average sensitivity = ', SVM.find_ave(sensitivity_list))
+print('average specificity = ', SVM.find_ave(specificity_list))

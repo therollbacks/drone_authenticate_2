@@ -61,7 +61,7 @@ class TestCsv:
                 true_lng = format(float(line[3]), '.5f')
                 true_roll = format(float(line[5]), '.1f')
                 true_pitch = format(float(line[6]), '.1f')
-                true_alt = format(float(line[1]))
+                true_alt = format(float(line[1]), '.7f')
                 true_yaw = round(float(line[4]))
 
                 if true_lat not in self.true_lat_list:
@@ -91,24 +91,24 @@ class TestCsv:
             for line in csv.reader(f):
                 current_line = line
                 print("alt is ", float(line[1]))
-                bad_alt = format((float(line[1])))
+                bad_alt = format((float(line[1])), '.7f')
                 bad_lat = format(float(line[2]), '.5f')
                 bad_lng = format(float(line[3]), '.5f')
                 bad_yaw = round(float(line[4]))
                 bad_roll = format(float(line[5]), '.1f')
                 bad_pitch = format(float(line[6]), '.1f')
 
-                # if bad_lat not in self.true_lat_list:
-                #     false_counter += 1
-                #     current_line.append(1)
-                #     compared_file_list.append(current_line)
-                #
-                # elif bad_lng not in self.true_lng_list:
-                #     false_counter += 1
-                #     current_line.append(1)
-                #     compared_file_list.append(current_line)
+                if bad_lat not in self.true_lat_list:
+                    false_counter += 1
+                    current_line.append(1)
+                    compared_file_list.append(current_line)
 
-                if bad_alt not in self.true_alt_list:
+                elif bad_lng not in self.true_lng_list:
+                    false_counter += 1
+                    current_line.append(1)
+                    compared_file_list.append(current_line)
+
+                elif bad_alt not in self.true_alt_list:
                     false_counter += 1
                     current_line.append(1)
                     compared_file_list.append(current_line)

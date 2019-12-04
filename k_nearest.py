@@ -13,7 +13,7 @@ class kNearest:
         trainingSet = []
         testSet = []
         self.split = 0.67
-        self.loadDataset('cleandatagp2_001comparedtest.csv', self.split, trainingSet, testSet)
+        self.loadDataset('./compared/001compared.csv', self.split, trainingSet, testSet)
         print(('Train set: ' + repr(len(trainingSet))))
         print(('Test set: ' + repr(len(testSet))))
         # generate predictions
@@ -27,7 +27,16 @@ class kNearest:
         accuracy = self.getAccuracy(testSet, predictions)
         print('Accuracy: ' + repr(accuracy) + '%')
 
+
     def loadDataset(self, filename, split, trainingSet=[], testSet=[]):
+        """
+        loads dataset
+        :param filename:
+        :param split:
+        :param trainingSet:
+        :param testSet:
+        :return:
+        """
         with open(filename, 'r') as csvfile:
             next(csvfile)
             lines = csv.reader(csvfile)
@@ -41,12 +50,26 @@ class kNearest:
                     testSet.append(dataset[x])
 
     def euclideanDistance(self, instance1, instance2, length):
+        """
+        calculates euclidean distance
+        :param instance1:
+        :param instance2:
+        :param length:
+        :return:
+        """
         distance = 0
         for x in range(length):
             distance += pow((float(instance1[x]) - float(instance2[x])), 2)
         return math.sqrt(distance)
 
     def getNeighbors(self, trainingSet, testInstance, k):
+        """
+        find distances from neighbours
+        :param trainingSet:
+        :param testInstance:
+        :param k:
+        :return:
+        """
         distances = []
         length = len(testInstance) - 1
         for x in range(len(trainingSet)):
@@ -59,6 +82,11 @@ class kNearest:
         return neighbors
 
     def getResponse(self, neighbors):
+        """
+        calculates votes from neighbours
+        :param neighbors:
+        :return:
+        """
         classVotes = {}
         for x in range(len(neighbors)):
             response = neighbors[x][-1]
@@ -70,21 +98,19 @@ class kNearest:
         return sortedVotes[0][0]
 
     def getAccuracy(self, testSet, predictions):
+        """
+        calculates performance matrix
+        :param testSet:
+        :param predictions:
+        :return:
+        """
         correct = 0
-
-        # p_score = precision_score(testSet, predictions, average='binary')
-        # r_score = recall_score(testSet, predictions, average='binary')
-        #
-        # print("p score is ", p_score, " r_score is ", r_score)
         for x in range(len(testSet)):
             if testSet[x][-1] == predictions[x]:
                 correct += 1
 
-
         TP = FN = FP = TN = 0
         for j in range(len(testSet)):
-            print('predictions j is ', predictions[j])
-            print('testset is ', testSet[j][-1])
 
             if testSet[j][-1] == 0 and predictions[j] == 0:
                 TP = TP + 1
@@ -107,4 +133,3 @@ class kNearest:
 
 
 if __name__ == '__main__': kNearest()
-

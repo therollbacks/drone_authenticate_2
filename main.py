@@ -10,7 +10,7 @@ class Main:
         print("starting ML models")
         self.pathName = os.getcwd()
         self.numFiles = []
-        self.fileNames = os.listdir('bad_auto')
+        self.fileNames = os.listdir('./compared/')
         self.svm_model()
         # self.k_nearest_model()
 
@@ -21,7 +21,7 @@ class Main:
 
         for filename in self.fileNames:
             sum = 0
-            with open('bad_auto/' + filename) as f:
+            with open('./compared/' + filename) as f:
                 for row in f:
                     sum = sum + 1
             print('opening compared auto ', filename)
