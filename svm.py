@@ -107,12 +107,16 @@ class SVM:
 
         accuracy = (TP + TN) / (TP + FN + FP + TN)
         print("accuracy:", accuracy)
+        precision = TP/(TP+FP)
+        print("precision: ", precision)
         sensitivity = TP / (TP + FN)
-        print('sensitivity: ', sensitivity)
+        print('recall: ', sensitivity)
         specificity = TN / (TN + FP)
         print('specifitiy: ', specificity)
+        f1 = (2*(precision*sensitivity))/(precision+sensitivity)
+        print('f1: ', f1)
 
-        return (TP, FN, FP, TN, accuracy, sensitivity, specificity)
+        return (TP, FN, FP, TN, accuracy, sensitivity, specificity, precision, f1)
 
     @staticmethod
     def find_ave(list):
@@ -127,15 +131,21 @@ os.chdir("./compared")
 acc_list = []
 sensitivity_list = []
 specificity_list = []
+f1_list = []
+precision_list = []
 
 for file in glob.glob("*.csv"):
     svm_model = SVM(file)
-    TP, FN, FP, TN, accuracy, sensitivity, specificity= svm_model.model()
+    TP, FN, FP, TN, accuracy, sensitivity, specificity, precision, f1= svm_model.model()
     acc_list.append(accuracy)
     sensitivity_list.append(sensitivity)
     specificity_list.append(specificity)
+    precision_list.append(precision)
+    f1_list.append(f1)
 
 print("-----------------------------------------------------------------")
 print('average accuracy = ', SVM.find_ave(acc_list))
-print('average sensitivity = ', SVM.find_ave(sensitivity_list))
+print('average precision = ', SVM.find_ave(precision_list))
+print('average recall = ', SVM.find_ave(sensitivity_list))
 print('average specificity = ', SVM.find_ave(specificity_list))
+print('average f1 = ', SVM.find_ave(f1_list))

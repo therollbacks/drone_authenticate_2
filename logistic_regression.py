@@ -47,13 +47,26 @@ class LogisticRegression:
 
         accuracy = (TP + TN) / (TP + FN + FP + TN)
 
-        # avg_acc_list2.append(accuracy)
-        # print("accuracy:", accuracy)
-        # sensitivity = TP / (TP + FN)
-        # print(sensitivity)
-        # avg_sens_list.append(sensitivity)
+        accuracy = (TP + TN) / (TP + FN + FP + TN)
+        print("accuracy:", accuracy)
+        try:
+            precision = TP / (TP + FP)
+            print("precision: ", precision)
+        except:
+            precision = 1
+        try:
+            sensitivity = TP / (TP + FN)
+            print('recall: ', sensitivity)
+        except:
+            sensitivity = 1
         specificity = TN / (TN + FP)
-        return accuracy, specificity
+        print('specifitiy: ', specificity)
+        try:
+            f1 = (2 * (precision * sensitivity)) / (precision + sensitivity)
+            print('f1: ', f1)
+        except:
+            f1 = 1
+        return accuracy, specificity, sensitivity, precision, f1
 
 
         #avg_spec_list.append(specificity)
@@ -84,17 +97,25 @@ os.chdir("./compared")
 acc_list = []
 sensitivity_list = []
 specificity_list = []
+prec_list = []
+f1_list = []
 
 
 for file in glob.glob("*.csv"):
     log_res = LogisticRegression(file)
 
-    acc,spec = log_res.algorithm()
+    acc,spec, sens, prec, f1 = log_res.algorithm()
     acc_list.append(acc)
     specificity_list.append(spec)
+    sensitivity_list.append(sens)
+    prec_list.append(prec)
+    f1_list.append(f1)
 
 
 print(acc_list)
 print("-----------------------------------------------------------------")
 print('average accuracy = ', LogisticRegression.find_ave(acc_list))
 print('average specificity = ', LogisticRegression.find_ave(specificity_list))
+print('average recall = ', LogisticRegression.find_ave(sensitivity_list))
+print('average precision = ', LogisticRegression.find_ave(prec_list))
+print('average f1 = ', LogisticRegression.find_ave(f1_list))
