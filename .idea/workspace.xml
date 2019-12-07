@@ -2,166 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c18cced-c7ef-4573-9696-08cec8bad7a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/drone_authenticate_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drone_authenticate_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000001dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000001dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000002dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000002dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000003dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000003dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000004dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000004dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000005dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000005dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000006dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000006dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000007dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000007dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000008dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000008dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000009dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000009dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000010dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000010dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000011dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000011dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000012dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000012dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000013dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000013dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000014dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000014dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000015dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000015dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000016dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000016dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000017dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000017dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000018dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000018dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000019dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000019dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000020dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000020dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000021dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000021dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000022dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000022dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000023dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000023dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000024dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000024dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000025dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000025dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000026dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000026dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000027dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000027dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000028dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000028dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000029dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000029dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000030dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000030dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000031dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000031dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000032dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000032dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000033dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000033dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000034dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000034dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000035dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000035dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000036dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000036dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000037dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000037dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000038dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000038dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000039dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000039dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000040dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000040dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000041dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000041dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000042dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000042dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000043dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000043dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000044dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000044dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000045dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000045dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000046dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000046dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000047dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000047dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000048dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000048dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000049dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000049dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000050dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000050dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000051dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000051dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000052dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000052dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000053dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000053dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000054dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000054dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000055dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000055dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000056dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000056dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000057dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000057dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000058dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000058dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000059dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000059dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000060dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000060dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000061dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000061dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000062dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000062dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000063dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000063dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000064dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000064dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000065dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000065dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000066dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000066dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000067dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000067dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000068dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000068dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000069dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000069dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000070dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000070dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000071dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000071dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000072dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000072dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000073dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000073dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000074dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000074dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000075dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000075dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000076dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000076dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000077dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000077dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000078dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000078dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000079dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000079dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000080dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000080dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000081dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000081dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000082dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000082dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000083dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000083dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000084dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000084dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000085dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000085dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000086dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000086dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000087dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000087dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000088dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000088dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000089dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000089dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000090dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000090dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000091dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000091dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000092dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000092dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000093dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000093dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000094dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000094dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000095dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000095dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000096dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000096dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000097dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000097dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000098dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000098dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000099dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000099dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad_auto/cleandata00000100dp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad_auto/cleandata00000100dp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compare_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_bad_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_bad_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6825525">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/compare_csv.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="164" column="30" lean-forward="true" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/generate_bad_data.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-288">
-                  <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/compare_csv.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,42 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/svm.py" />
-        <option value="$PROJECT_DIR$/generate_bad_data.py" />
-        <option value="$PROJECT_DIR$/compare_csv.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="drone_authenticate_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone_authenticate_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1UXQApfitGyBUDcHjC0cG1Kmo7m" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compare_csv">
+  <component name="RunManager" selected="Python.svm">
     <configuration name="compare_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="drone_authenticate_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,8 +86,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="k_nearest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="drone_authenticate_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k_nearest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="drone_authenticate_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="drone_authenticate_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svm" />
+        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.k_nearest" />
         <item itemvalue="Python.compare_csv" />
         <item itemvalue="Python.generate_bad_data" />
       </list>
@@ -285,199 +172,15 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229854" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" x="11" y="289" width="1514" height="246" id="Run" order="2" type="WINDOWED" visible="true" weight="0.3479491" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/formatted_auto/cleandatadp2_001.csv" />
-    <entry file="file://$PROJECT_DIR$/formatted_auto/cleandata00000097.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatted_auto/cleandatadp2_006.csv" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compared_auto/cleandatagp2_003compared.csv" />
-    <entry file="file://$PROJECT_DIR$/formatted_auto/cleandata00000003.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binaryclassifier.py" />
-    <entry file="file://$PROJECT_DIR$/convert_csv_updated.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logistic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k_nearest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000017.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000014.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000011.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000009.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000005.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000003.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000002.csv" />
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000001.csv" />
-    <entry file="file://$PROJECT_DIR$/formatted_auto/cleandata00000001.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleandata00000009dp.csvcompared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleandata00000010dp.csvcompared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleandata00000014dp.csvcompared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleandata00000011dp.csvcompared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_auto/gpcompared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_convert_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000054dp.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_auto/cleandata00000001dp.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compared/015compared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatted_auto/cleandata00000001gp.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compared/001compared.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_bad_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="164" column="30" lean-forward="true" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
